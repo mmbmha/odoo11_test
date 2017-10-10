@@ -1,7 +1,7 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-    <!--
+
     <record model="ir.ui.view" id="dall.list">
       <field name="name">Dall list</field>
       <field name="model">dall.dall</field>
@@ -13,19 +13,19 @@
         </tree>
       </field>
     </record>
-    -->
+
 
     <!-- actions opening views on models -->
-    <!--
+
     <record model="ir.actions.act_window" id="dall.action_window">
       <field name="name">Dall window</field>
       <field name="res_model">dall.dall</field>
       <field name="view_mode">tree,form</field>
     </record>
-    -->
+
 
     <!-- server action to the one above -->
-    <!--
+
     <record model="ir.actions.server" id="dall.action_server">
       <field name="name">Dall server</field>
       <field name="model_id" ref="model_dall_dall"/>
@@ -38,7 +38,7 @@
         }
       </field>
     </record>
-    -->
+    
 
     <!-- Top menu item -->
 
@@ -48,13 +48,13 @@
 
     <menuitem name="Menu 1" id="dall.menu_1" parent="dall.menu_root"/>
     <menuitem name="Menu 2" id="dall.menu_2" parent="dall.menu_root"/>
-    
+
     <!-- actions -->
-    <!--
+
     <menuitem name="List" id="dall.menu_1_list" parent="dall.menu_1"
               action="dall.action_window"/>
     <menuitem name="Server to list" id="dall" parent="dall.menu_2"
               action="dall.action_server"/>
-    -->
+
   </data>
 </odoo>
