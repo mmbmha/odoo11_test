@@ -41,14 +41,14 @@
     -->
 
     <!-- Top menu item -->
-    <!--
+
     <menuitem name="Dall" id="dall.menu_root"/>
-    -->
+
     <!-- menu categories -->
-    <!--
+
     <menuitem name="Menu 1" id="dall.menu_1" parent="dall.menu_root"/>
     <menuitem name="Menu 2" id="dall.menu_2" parent="dall.menu_root"/>
-    -->
+    
     <!-- actions -->
     <!--
     <menuitem name="List" id="dall.menu_1_list" parent="dall.menu_1"
