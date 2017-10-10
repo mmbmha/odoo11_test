@@ -22,7 +22,7 @@
       <field name="res_model">dall.dall</field>
       <field name="view_mode">tree,form</field>
     </record>
-  
+
 
     <!-- server action to the one above -->
     <!--
